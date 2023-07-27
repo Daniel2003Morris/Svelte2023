@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav style="background-color: black;">
+    <img src="icon.png" width="170" alt="Broken">
+    <ul style="display:inline">
+        <li style="display:inline">Ships</li>
+        <li style="display:inline">Modules</li>
+        <li style="display:inline">Weapons</li>
+    </ul>
+</nav>
