@@ -36,3 +36,7 @@ nav a {
   text-decoration: none;
   color: white;
 }
+
+#indexVideo {
+  width: 100vw;
+}
