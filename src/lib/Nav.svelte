@@ -1,4 +1,5 @@
 <nav>
+    <img href="/" src="icon.png" width="200" alt="Broken">
     <ul>
         <li>
             <a href="/">Home</a>
