@@ -1,17 +1,15 @@
+<script>
+
+    import NavLink from "$lib/NavLink.svelte";
+
+</script>
+
 <nav>
-    <img href="/" src="icon.png" width="200" alt="Broken">
+    <img src="icon.png" width="200" alt="Broken">
     <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="ships">Ships</a>
-        </li>
-        <li>
-            <a href="modules">Modules</a>
-        </li>
-        <li>
-            <a href="weapons">Weapons</a>
-        </li>
+        <NavLink href="/" title="Home" />
+        <NavLink href="/ships" title="Ships" />
+        <NavLink href="/modules" title="Modules" />
+        <NavLink href="/weapons" title="Weapons" />
     </ul>
 </nav>
