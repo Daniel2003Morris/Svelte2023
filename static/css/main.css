@@ -3,12 +3,22 @@
   --secondaryColor: #ffffff;
 }
 nav{
+  display: flex;
+  color: var(--secondaryColor);
+  background-color: var(--mainColor);
   max-width: 100%;
   height: 9vw;
   margin: 0;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 1.5 em;
+}
+nav ul{
+  list-style: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+  font-size: 1.5em;
+  padding: 0.5em 1.5em;
 }
