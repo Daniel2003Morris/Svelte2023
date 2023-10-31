@@ -33,6 +33,12 @@ nav a {
 #indexVideo{
   display: block;
   width: 100%;
+  background-color: var(--mainColor);
+  padding-bottom: 20px;
+}
+news{
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 footer{
   display: flex;
