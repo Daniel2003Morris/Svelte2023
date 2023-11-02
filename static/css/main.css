@@ -30,16 +30,6 @@ nav a {
   text-decoration: none;
   color: var(--secondaryColor);
 }
-#indexVideo{
-  display: block;
-  width: 100%;
-  background-color: var(--mainColor);
-  padding-bottom: 20px;
-}
-news{
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
 footer{
   display: flex;
   color: var(--secondaryColor);
@@ -64,4 +54,23 @@ footer a {
   text-decoration: none;
   color: var(--secondaryColor);
 }
+#indexVideo{
+  display: block;
+  width: 100%;
+  background-color: var(--mainColor);
+  padding-bottom: 20px;
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
+#item2, #item3{
+  height: 25vw;
+}
+
+#item2 img, #item3 img{
+  height: 25vw;
+  width: 100%;
+  object-fit: cover;
+}
