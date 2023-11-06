@@ -58,7 +58,12 @@ footer a {
   display: block;
   width: 100%;
   background-color: var(--mainColor);
-  padding-bottom: 20px;
+}
+#index-border{
+  height: 20px;
+  border-top: solid var(--secondaryColor) 2px;
+  border-bottom: solid var(--secondaryColor) 2px;
+  background-color: var(--mainColor);
 }
 #grid-container {
   display: grid;
@@ -75,5 +80,8 @@ footer a {
 #news-txt{
   background-color: var(--mainColor);
   color: var(--secondaryColor);
+  margin: 0px;
+  padding: 30px;
   text-align: center;
+  font-size: larger;
 }
