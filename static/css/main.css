@@ -64,13 +64,16 @@ footer a {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
-#item2, #item3{
+#news-img, #news-txt{
   height: 25vw;
 }
-
-#item2 img, #item3 img{
+#news-img img{
   height: 25vw;
   width: 100%;
   object-fit: cover;
+}
+#news-txt{
+  background-color: var(--mainColor);
+  color: var(--secondaryColor);
+  text-align: center;
 }
