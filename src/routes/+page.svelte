@@ -4,7 +4,8 @@
 <div id="index-border"></div>
 <div id="grid-container">
     <div id="news-img"><img src="news-image.png"></div>
-    <div id="news-txt">Commanders have been asked to help destroy the rogue Grey Swan pilots killing civilians in the Shamash system.
+    <div id="news-txt">
+        Commanders have been asked to help destroy the rogue Grey Swan pilots killing civilians in the Shamash system.
 
         Military squadrons taking part in Fleet Exercise Grey Swan became irrationally violent following an unexplained mass hysteria that swept through Garrett Orbital during a fleet training exercise. Captain Ulrich Maurer, commanding officer of the San Tu State Network megaship Khonsu Gleam, broadcast the following message:
         <br>
@@ -14,5 +15,14 @@
         <br>
         Wing Commander Mackenzie Coates was coordinating Fleet Exercise Grey Swan when a bizarre signal caused its crews to become homicidal. She told a local newsfeed:
         <br>
-        “This is a nightmarish situation.</div>
+        “This is a nightmarish situation.
+    </div>
+    <div id="news-txt">
+        placeholder
+    </div>
+    <div id="news-img"></div>
+    <div id="news-img"></div>
+    <div id="news-txt">
+        placeholder
+    </div>
 </div>

@@ -1,6 +1,7 @@
 :root {
   --mainColor: #303030;
   --secondaryColor: #ffffff;
+  --border-color: #313537;
 }
 body{
   background-color: lime;
@@ -68,6 +69,7 @@ footer a {
 #grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
 }
 #news-img, #news-txt{
   height: 25vw;
