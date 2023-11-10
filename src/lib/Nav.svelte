@@ -8,8 +8,8 @@
     <img src="favicon.png" width="200" alt="Broken">
     <ul>
         <NavLink href="/" title="Home" />
-        <NavLink href="/ships" title="Ships" />
-        <NavLink href="/modules" title="Modules" />
-        <NavLink href="/weapons" title="Weapons" />
+        <NavLink href="/News" title="News" />
+        <NavLink href="/Modules" title="Modules" />
+        <NavLink href="/Weapons" title="Weapons" />
     </ul>
 </nav>
