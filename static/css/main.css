@@ -1,6 +1,7 @@
 :root {
   --mainColor: #303030;
   --secondaryColor: #ffffff;
+  --border-color: #313537;
 }
 body{
   background-color: lime;
@@ -30,10 +31,6 @@ nav a {
   text-decoration: none;
   color: var(--secondaryColor);
 }
-#indexVideo{
-  display: block;
-  width: 100%;
-}
 footer{
   display: flex;
   color: var(--secondaryColor);
@@ -58,4 +55,35 @@ footer a {
   text-decoration: none;
   color: var(--secondaryColor);
 }
-
+#indexVideo{
+  display: block;
+  width: 100%;
+  background-color: var(--mainColor);
+}
+#index-border{
+  height: 20px;
+  border-top: solid var(--secondaryColor) 2px;
+  border-bottom: solid var(--secondaryColor) 2px;
+  background-color: var(--mainColor);
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+}
+#news-img, #news-txt{
+  height: 25vw;
+}
+#news-img img{
+  height: 25vw;
+  width: 100%;
+  object-fit: cover;
+}
+#news-txt{
+  background-color: var(--mainColor);
+  color: var(--secondaryColor);
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+  font-size: larger;
+}
