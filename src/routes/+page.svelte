@@ -17,7 +17,6 @@
 <div id="grid-container">
     <div id="news-img"><img src="{news.img}"></div>
     <div id="news-txt">
-        {console.log(news.)}
         {news.article}
     </div>
     <div id="news-txt">
